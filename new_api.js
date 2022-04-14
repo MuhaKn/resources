@@ -46,5 +46,4 @@ const generateQuote = function() {
 }
 window.onload = function() {
     generateQuote();
-    // document.getElementById("generate").addEventListener('click', generateQuote);
-}
+ }
