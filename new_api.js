@@ -1,5 +1,5 @@
-const text=document.getElementById("q");
-const author=document.getElementById("a");
+const q=document.getElementById("q");
+const a=document.getElementById("a");
 const getNewQuote = async () =>
 {
     //api for quotes
@@ -15,10 +15,10 @@ const getNewQuote = async () =>
     // const indx = Math.floor(Math.random()*allQuotes.length);
 
     //Store the quote present at the randomly generated index
-    const quote=allQuotes.text;
+    const quote=allQuotes.q;
     
     //Store the author of the respective quote
-    const auth=allQuotes.author;
+    const auth=allQuotes.a;
 
     if(auth==null)
     {
@@ -26,8 +26,8 @@ const getNewQuote = async () =>
     }
  
     //function to dynamically display the quote and the author
-    text.innerHTML=quote;
-    author.innerHTML="~ "+auth;
+    q.innerHTML=q;
+    a.innerHTML="~ "+a;
 
     
 
