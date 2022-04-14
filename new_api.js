@@ -12,13 +12,13 @@ const getNewQuote = async () =>
     const allQuotes = await response.json();
 
     // Generates a random number between 0 and the length of the quotes array
-    const indx = Math.floor(Math.random()*allQuotes.length);
+    // const indx = Math.floor(Math.random()*allQuotes.length);
 
     //Store the quote present at the randomly generated index
-    const quote=allQuotes[indx].text;
+    const quote=allQuotes[1].text;
     
     //Store the author of the respective quote
-    const auth=allQuotes[indx].author;
+    const auth=allQuotes[1].author;
 
     if(auth==null)
     {
