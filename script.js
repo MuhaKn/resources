@@ -3,7 +3,7 @@ const author=document.getElementById("author");
 const getNewQuote = async () =>
 {
     //api for quotes
-    var url="https://adarsh-goel.github.io/resources/quotes";    
+    var url="https://raw.githubusercontent.com/adarsh-goel/resources/main/quotes_list";    
 
     // fetch the data from api
     const response=await fetch(url);
