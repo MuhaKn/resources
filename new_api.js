@@ -15,10 +15,10 @@ const getNewQuote = async () =>
     // const indx = Math.floor(Math.random()*allQuotes.length);
 
     //Store the quote present at the randomly generated index
-    const quote=allQuotes[1].text;
+    const quote=allQuotes.text;
     
     //Store the author of the respective quote
-    const auth=allQuotes[1].author;
+    const auth=allQuotes.author;
 
     if(auth==null)
     {
