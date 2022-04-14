@@ -3,7 +3,7 @@ const author=document.getElementById("a");
 const getNewQuote = async () =>
 {
     //api for quotes
-    var url="https://type.fit/api/quotes";    
+    var url="https://zenquotes.io/api/random";    
 
     // fetch the data from api
     const response=await fetch(url);
