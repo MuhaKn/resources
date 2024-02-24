@@ -286,6 +286,7 @@
  }
  
  body.dark .toogle:before {
+     color: black;
      content: '\f185';
  }
  
