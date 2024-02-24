@@ -251,6 +251,7 @@
  
  body.dark {
      background-image: radial-gradient(#221f22, #1E1E1E);
+     color: white;
  }
  
  header {
