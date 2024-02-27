@@ -308,7 +308,7 @@
  
  #file-name.dark {
      color: white;
-     background-color: radial-gradient(#221f22, #1E1E1E);
+     background-image: radial-gradient(#221f22, #1E1E1E);
  }
  .container{
      padding-top: 1%;
