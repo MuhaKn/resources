@@ -263,7 +263,7 @@ body {
     padding: 0;
     align-items: center;
     justify-content: center;
-    animation: move 20s alternate infinite;
+    animation: move 10s alternate infinite;
 }
 
 body.cyber {
