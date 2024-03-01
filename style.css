@@ -207,8 +207,8 @@
    }
    
  
- :root{
-     --bg-color: linear-gradient(-45deg, #7400b8, #6930c3, #5e60ce, #5390d9, #4ea8de, #48bfe3, #56cfe1, #64dfdf, #72efdd, #80ffdb);
+ :root{  
+     --bg-color: linear-gradient(-45deg, #9d80ad, #6930c3, #5e60ce, #b3b3b3, #4ea8de, #48bfe3, #617073, #cf4773, #72efdd, #59d958);         
      --filename-color: white;
      --footer-color: #fcc700;
      --footer-font-color: black;
